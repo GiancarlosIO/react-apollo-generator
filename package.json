@@ -11,7 +11,7 @@
     "typescript",
     "nexus"
   ],
-  "author": "Giancarlos  <giancarlos.isasi@gmail.com>",
+  "author": "Giancarlos <giancarlos.isasi@gmail.com>",
   "homepage": "https://github.com/GiancarlosIO/react-apollo-generator#readme",
   "license": "MIT",
   "files": [
