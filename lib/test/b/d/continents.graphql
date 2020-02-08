@@ -1,0 +1,11 @@
+# Write your query or mutation here
+query continents {
+  continents {
+    code
+    name
+    countries {
+      code
+      name
+    }
+  }
+}
