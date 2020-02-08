@@ -1,0 +1,35 @@
+{
+  "name": "react-apollo-generator",
+  "version": "0.1.0",
+  "description": "A simple wrapper around graphql-code-generator to generate react hooks with support for multiple graphql schemas",
+  "keywords": [
+    "webpack",
+    "react",
+    "graphql",
+    "apollo",
+    "react-hooks",
+    "typescript",
+    "nexus"
+  ],
+  "author": "Giancarlos <giancarlos.isasi@gmail.com>",
+  "homepage": "https://github.com/GiancarlosIO/react-apollo-generator#readme",
+  "license": "MIT",
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "bin": {
+    "rag": "bin/react-apollo-generator.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GiancarlosIO/react-apollo-generator.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/GiancarlosIO/react-apollo-generator/issues"
+  },
+  "dependencies": {}
+}
