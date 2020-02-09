@@ -27,7 +27,7 @@
     "url": "git+https://github.com/GiancarlosIO/react-apollo-generator.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "node ./lib/react-apollo-generator.js ./lib/test/b/d"
   },
   "bugs": {
     "url": "https://github.com/GiancarlosIO/react-apollo-generator/issues"
