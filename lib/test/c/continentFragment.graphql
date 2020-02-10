@@ -1,0 +1,4 @@
+fragment ContinentFragment on Continent {
+  code
+  name
+}

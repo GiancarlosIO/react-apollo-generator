@@ -76,23 +76,29 @@ export type ContinentsQueryVariables = {};
 
 
 export type ContinentsQuery = { continents: Maybe<Array<Maybe<(
-    Pick<Continent, 'code' | 'name'>
-    & { countries: Maybe<Array<Maybe<Pick<Country, 'code' | 'name'>>>> }
+    { countries: Maybe<Array<Maybe<Pick<Country, 'code' | 'name'>>>> }
+    & ContinentFragmentFragment
   )>>> };
 
+export type ContinentFragmentFragment = Pick<Continent, 'code' | 'name'>;
 
+export const ContinentFragmentFragmentDoc = gql`
+    fragment ContinentFragment on Continent {
+  code
+  name
+}
+    `;
 export const ContinentsDocument = gql`
     query continents {
   continents {
-    code
-    name
+    ...ContinentFragment
     countries {
       code
       name
     }
   }
 }
-    `;
+    ${ContinentFragmentFragmentDoc}`;
 
 /**
  * __useContinentsQuery__

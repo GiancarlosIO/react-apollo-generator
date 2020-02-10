@@ -1,8 +1,7 @@
-# Write your query or mutation here
+#import "../../c/continentFragment.graphql"
 query continents {
   continents {
-    code
-    name
+    ...ContinentFragment
     countries {
       code
       name
