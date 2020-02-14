@@ -1,0 +1,10 @@
+#import "../../c/continentFragment.graphql"
+query continents {
+  continents {
+    ...ContinentFragment
+    countries {
+      code
+      name
+    }
+  }
+}

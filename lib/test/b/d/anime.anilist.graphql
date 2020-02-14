@@ -1,0 +1,16 @@
+query page {
+  Page {
+    characters {
+      image {
+        large
+        medium
+      }
+      name {
+        first
+        last
+        full
+        native
+      }
+    }
+  }
+}
