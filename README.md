@@ -1,5 +1,5 @@
 # react apollo generator 🔧
-[![npm](https://img.shields.io/npm/dm/react-apollo-generator)](https://www.npmjs.com/package/react-apollo-generator) [![npm](https://img.shields.io/npm/v/react-apollo-generator)](https://www.npmjs.com/package/react-apollo-generator)
+[![npm](https://img.shields.io/npm/v/react-apollo-generator)](https://www.npmjs.com/package/react-apollo-generator)
 
 _The most successful dev work smart, not hard._
 
